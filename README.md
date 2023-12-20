@@ -44,14 +44,14 @@ When copying all the files (except for `image.png`), the script will replace pla
 
 Generate all available boards to `out_dir` folder
 
-```
-    python gen.py -o out_dir
+```shell
+    python3 gen.py -o out_dir
 ```
 
 Generate only one selected board `board_dir` to `out_dir` folder
 
-```
-    python gen.py -o out_dir -b board_dir
+```shell
+    python3 gen.py -o out_dir -b board_dir
 ```
 
 **_NOTE:_** The output folder is cleaned before generating.
@@ -61,8 +61,8 @@ Generate only one selected board `board_dir` to `out_dir` folder
 The generator supports custom boards. The example of the custom board is [here](boards/custom_waveshare_7inch/). There is custom BSP for the custom board as a component. For use this custom board in SquareLine, follow these steps:
 
 1. Generate custom board.
-```
-    python gen.py -o out_dir -b custom_waveshare_7inch
+``` shell
+    python3 gen.py -o out_dir -b sc01_plus
 ```
 
-2. Copy folder from `out_dir/espressif/custom_waveshare_7inch` to `"SquareLine Studio installation path"/boards/espressif/`
+2. Copy folder from `out_dir/espressif/sc01_plus` to `"SquareLine Studio installation path"/boards/espressif/`
