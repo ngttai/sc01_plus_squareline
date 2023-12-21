@@ -37,7 +37,7 @@ SLB_FILE = {
     "color_depth": "",
     "lvgl_export_path": "",
     "lvgl_include_path": "lvgl.h",
-    "supported_lvgl_version": "8.2.0, 8.3.3",
+    "supported_lvgl_version": "8.2.0, 8.3.*",
     "pattern_match_files": "./CMakeLists.txt",
     "language":"C",
     "ui_export_path":"./main/ui",

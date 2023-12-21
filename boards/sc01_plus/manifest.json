@@ -1,14 +1,14 @@
 {
-    "name":"SC01 Plus 3.5inch",
-    "version":"1.0.0",
+    "name":"WT32-SC01 Plus",
+    "version":"1.0.1",
     "mcu":"ESP32S3",
 
     "screen_width":"320",
     "screen_height":"480",
     "screen_color_swap":true,
 
-    "short_description":"Internal SC01 Plus board with 3.5inch Display made by Espressif.",
-    "long_description":"Example of the custom BSP and custom LCD made by Espressif for various Demos.",
+    "short_description":"WT32-SC01 Plus - ESP32-S3 Development Board with 3.5\" Capacitive Screen.",
+    "long_description":"WT32-SC01 Plus is an ESP32 Development board with a 3.5-inch color touch screen. The touch screen enables a new way of interacting with the ESP32. The board is equipped with a graphical user interface (GUI) firmware, which supports graphical drag-and-drop programming and helps users develop a customized control platform.\n\nWT32-SC01 Plus development board has the ESP32-S3-WROVER-N16R2 module, which is a general-purpose MCU module with Wi-Fi, Bluetooth, 16MB SPI Flash and 2MB PSRAM.",
 
     "placeholders":
     {
