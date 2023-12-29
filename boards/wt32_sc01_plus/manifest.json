@@ -12,7 +12,7 @@
 
     "placeholders":
     {
-        "__ESP_BOARD_INCLUDE__": "bsp/sc01_plus.h",
+        "__ESP_BOARD_INCLUDE__": "bsp/wt32_sc01_plus.h",
         "__ESP_BOARD_I2C_INIT__": "/* Initialize I2C (for touch) */\n    bsp_i2c_init();"
     }
 }

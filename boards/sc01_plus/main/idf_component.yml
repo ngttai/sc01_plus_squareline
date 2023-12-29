@@ -1,5 +1,0 @@
-dependencies:
-  idf: ">=5.0"
-  sc01_plus:
-    path: ../components
-    version: ^1

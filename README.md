@@ -62,7 +62,7 @@ The generator supports custom boards. The example of the custom board is [here](
 
 1. Generate custom board.
 ``` shell
-    python3 gen.py -o out_dir -b sc01_plus
+    python gen.py -o out_dir -b wt32_sc01_plus
 ```
 
-2. Copy folder from `out_dir/espressif/sc01_plus` to `"SquareLine Studio installation path"/boards/espressif/`
+2. Copy folder from `out_dir/espressif/wt32_sc01_plus` to `"SquareLine Studio installation path"/boards/espressif/`

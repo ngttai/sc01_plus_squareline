@@ -1,9 +1,0 @@
-version: "1.0.1"
-description: Board Support Package for WT32 SC01 Plus
-
-dependencies:
-  idf: ">=5.0"
-  lvgl/lvgl: "^8.3"
-  esp_lcd_st7796: "^1.2"
-  esp_lcd_touch_ft5x06: "^1.0"
-  esp_lvgl_port: "^1"
